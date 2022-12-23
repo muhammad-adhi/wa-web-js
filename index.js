@@ -5,6 +5,7 @@ const { Client, LocalAuth } = require("whatsapp-web.js");
 const { EditPhotoHandler } = require("./feature/edit_foto");
 const { Configuration, OpenAIApi } = require("openai");
 const http = require("http");
+const { response } = require("express");
 const keynya = "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";
 const configuration = new Configuration({
    apiKey: keynya,
@@ -13,6 +14,9 @@ const configuration = new Configuration({
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
    res.sendFile("index.html", { root: __dirname });
@@ -94,7 +98,7 @@ client.on("message", async (message) => {
             });
             const resultnya = response.data.choices[0].text;
             client.sendMessage(from, `Halo *${contact.pushname}*` + resultnya);
-            console.log(`[!] Message From (${contact.pushname}) ~> ${message.body}`);
+            // console.log(`[!] Message From (${contact.pushname}) ~> ${message.body}`);
          } else {
             message.reply("Kirim *MENU* untuk melihat list menu");
          }
@@ -107,7 +111,6 @@ client.on("message", async (message) => {
 io.on("connection", function (socket) {
    socket.emit("message", "Connecting....");
    client.on("qr", (qr) => {
-      console.log("QR CODE", qr);
       qrcode.toDataURL(qr, (err, url) => {
          socket.emit("qr", url);
          socket.emit("message", "ready scan please");
@@ -116,6 +119,27 @@ io.on("connection", function (socket) {
    client.on("ready", () => {
       socket.emit("message", "wa bot is ready");
    });
+});
+
+// send message
+app.post("/send-message", (req, res) => {
+   const number = req.body.number;
+   const message = req.body.message;
+
+   client
+      .sendMessage(number, message)
+      .then((response) => {
+         res.status(200).json({
+            status: true,
+            response: response,
+         });
+      })
+      .catch((err) => {
+         res.status(500).json({
+            status: false,
+            response: err,
+         });
+      });
 });
 
 client.initialize();

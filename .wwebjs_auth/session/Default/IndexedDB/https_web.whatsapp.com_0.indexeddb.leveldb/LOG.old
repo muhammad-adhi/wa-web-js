@@ -1,37 +1,6 @@
-2022/12/23-14:35:21.879 fb26 Reusing MANIFEST /home/kali/Destop/wa-web-js/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/23-14:35:21.879 fb26 Recovering log #89
-2022/12/23-14:35:21.915 fb26 Reusing old log /home/kali/Destop/wa-web-js/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000089.log 
-2022/12/23-14:35:21.916 fb26 Delete type=2 #88
-2022/12/23-14:35:22.062 fb27 Manual compaction at level-0 from '\x00+\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00,\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/12/23-14:35:22.126 fb27 Level-0 table #94: started
-2022/12/23-14:35:22.209 fb27 Level-0 table #94: 84223 bytes OK
-2022/12/23-14:35:22.242 fb27 Delete type=0 #89
-2022/12/23-14:35:22.243 fb27 Manual compaction at level-0 from '\x00*\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00+\x00\x00\x00' @ 0 : 0; will stop at '\x00+.\x02\x01\x0e\x00W\x00A\x00A\x00D\x00V\x00S\x00e\x00c\x00r\x00e\x00t\x00K\x00e\x00y' @ 74277 : 1
-2022/12/23-14:35:22.243 fb27 Compacting 1@0 + 1@1 files
-2022/12/23-14:35:22.328 fb27 Generated table #95@0: 8223 keys, 89223 bytes
-2022/12/23-14:35:22.328 fb27 Compacted 1@0 + 1@1 files => 89223 bytes
-2022/12/23-14:35:22.381 fb27 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/12/23-14:35:22.382 fb27 Delete type=2 #94
-2022/12/23-14:35:22.382 fb27 Manual compaction at level-0 from '\x00+.\x02\x01\x0e\x00W\x00A\x00A\x00D\x00V\x00S\x00e\x00c\x00r\x00e\x00t\x00K\x00e\x00y' @ 74277 : 1 .. '\x00+\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/12/23-14:35:22.397 fb52 Level-0 table #97: started
-2022/12/23-14:35:22.437 fb52 Level-0 table #97: 5113 bytes OK
-2022/12/23-14:35:22.489 fb52 Delete type=0 #93
-2022/12/23-14:35:22.489 fb52 Delete type=2 #91
-2022/12/23-14:35:22.490 fb52 Manual compaction at level-0 from '\x00)\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00*\x00\x00\x00' @ 0 : 0; will stop at '\x00,\x00\x00\xc8\x08\x00w\x00a\x00m\x00_\x00m\x00e\x00t\x00a' @ 75966 : 1
-2022/12/23-14:35:22.490 fb52 Compacting 1@0 + 1@1 files
-2022/12/23-14:35:22.549 fb52 Generated table #98@0: 8330 keys, 91430 bytes
-2022/12/23-14:35:22.549 fb52 Compacted 1@0 + 1@1 files => 91430 bytes
-2022/12/23-14:35:22.579 fb52 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/12/23-14:35:22.580 fb52 Delete type=2 #97
-2022/12/23-14:35:22.580 fb52 Manual compaction at level-0 from '\x00,\x00\x00\xc8\x08\x00w\x00a\x00m\x00_\x00m\x00e\x00t\x00a' @ 75966 : 1 .. '\x00*\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/12/23-14:35:22.583 fb52 Level-0 table #100: started
-2022/12/23-14:35:22.618 fb52 Level-0 table #100: 16271 bytes OK
-2022/12/23-14:35:22.646 fb52 Delete type=0 #96
-2022/12/23-14:35:22.646 fb52 Delete type=2 #95
-2022/12/23-14:35:22.646 fb52 Manual compaction at level-0 from '\x00(\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00)\x00\x00\x00' @ 0 : 0; will stop at '\x00(\x06 \x03\x00\x00\x00\x00\x00\x80V@\x00\x01\x0b\x00I\x00d\x00T\x00t\x00l\x009\x000\x00D\x00a\x00y\x00s' @ 76532 : 0
-2022/12/23-14:35:22.646 fb52 Compacting 1@0 + 1@1 files
-2022/12/23-14:35:22.734 fb52 Generated table #101@0: 7953 keys, 67206 bytes
-2022/12/23-14:35:22.734 fb52 Compacted 1@0 + 1@1 files => 67206 bytes
-2022/12/23-14:35:22.761 fb52 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/12/23-14:35:22.761 fb52 Delete type=2 #100
-2022/12/23-14:35:22.762 fb52 Manual compaction at level-0 from '\x00(\x06 \x03\x00\x00\x00\x00\x00\x80V@\x00\x01\x0b\x00I\x00d\x00T\x00t\x00l\x009\x000\x00D\x00a\x00y\x00s' @ 76532 : 0 .. '\x00)\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/12/23-15:27:29.713 11b1a Reusing MANIFEST /home/kali/Destop/wa-web-js/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/23-15:27:29.714 11b1a Recovering log #150
+2022/12/23-15:27:29.758 11b1a Reusing old log /home/kali/Destop/wa-web-js/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000150.log 
+2022/12/23-15:27:29.758 11b1a Delete type=2 #148
+2022/12/23-15:27:29.758 11b1a Delete type=2 #147
+2022/12/23-15:27:29.758 11b1a Delete type=2 #151
