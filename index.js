@@ -5,9 +5,10 @@ const { Client, LocalAuth } = require("whatsapp-web.js");
 const { EditPhotoHandler } = require("./feature/edit_foto");
 const { Configuration, OpenAIApi } = require("openai");
 const http = require("http");
-const { response } = require("express");
-const keynya = "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";
+// const { response } = require("express");
+const keynya = "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";
 const configuration = new Configuration({
+   organization: "org-pWcuENjkhvAOhIgqZsplSINJ",
    apiKey: keynya,
 });
 

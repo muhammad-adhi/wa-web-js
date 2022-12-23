@@ -1,3 +1,5 @@
-2022/12/23-15:30:10.213 11cc2 Reusing MANIFEST /home/kali/Destop/wa-web-js/.wwebjs_auth/session/Default/Local Storage/leveldb/MANIFEST-000001
-2022/12/23-15:30:10.213 11cc2 Recovering log #3
-2022/12/23-15:30:10.223 11cc2 Reusing old log /home/kali/Destop/wa-web-js/.wwebjs_auth/session/Default/Local Storage/leveldb/000003.log 
+2022/12/23-16:01:13.436 14a3f Reusing MANIFEST /home/kali/Destop/wa-web-js/.wwebjs_auth/session/Default/Local Storage/leveldb/MANIFEST-000001
+2022/12/23-16:01:13.437 14a3f Recovering log #3
+2022/12/23-16:01:13.440 14a3f Level-0 table #3: started
+2022/12/23-16:01:13.503 14a3f Level-0 table #3: 21513 bytes OK
+2022/12/23-16:01:13.536 14a3f Delete type=0 #3
