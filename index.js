@@ -1,12 +1,22 @@
-const qrcode = require("qrcode-terminal");
+const qrcode = require("qrcode");
+const express = require("express");
+const socketIo = require("socket.io");
 const { Client, LocalAuth } = require("whatsapp-web.js");
 const { EditPhotoHandler } = require("./feature/edit_foto");
 const { Configuration, OpenAIApi } = require("openai");
-const keynya = "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";
+const http = require("http");
+const keynya = "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";
 const configuration = new Configuration({
    apiKey: keynya,
 });
 
+const app = express();
+const server = http.createServer(app);
+const io = socketIo(server);
+
+app.get("/", (req, res) => {
+   res.sendFile("index.html", { root: __dirname });
+});
 const client = new Client({
    puppeteer: {
       args: ["--no-sandbox"],
@@ -15,10 +25,6 @@ const client = new Client({
 });
 
 const openai = new OpenAIApi(configuration);
-
-client.on("qr", (qr) => {
-   qrcode.generate(qr, { small: true });
-});
 
 client.on("ready", () => {
    console.log("Client is ready!");
@@ -98,4 +104,21 @@ client.on("message", async (message) => {
    }
 });
 
+io.on("connection", function (socket) {
+   socket.emit("message", "Connecting....");
+   client.on("qr", (qr) => {
+      console.log("QR CODE", qr);
+      qrcode.toDataURL(qr, (err, url) => {
+         socket.emit("qr", url);
+         socket.emit("message", "ready scan please");
+      });
+   });
+   client.on("ready", () => {
+      socket.emit("message", "wa bot is ready");
+   });
+});
+
 client.initialize();
+server.listen(8000, function () {
+   console.log("app run on *:" + 8000);
+});
