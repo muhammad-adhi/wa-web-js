@@ -8,7 +8,6 @@ const http = require("http");
 const { response } = require("express");
 const keynya = "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";
 const configuration = new Configuration({
-   Authorization: (bearer = keynya),
    organization: "org-pWcuENjkhvAOhIgqZsplSINJ",
    apiKey: keynya,
 });
