@@ -1,0 +1,45 @@
+2022/12/25-10:58:37.041 9fb Reusing MANIFEST /home/kali/Destop/wa-web-js/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/25-10:58:37.042 9fb Recovering log #83
+2022/12/25-10:58:37.272 9fb Reusing old log /home/kali/Destop/wa-web-js/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000083.log 
+2022/12/25-10:58:37.273 9fb Delete type=2 #81
+2022/12/25-10:58:37.273 9fb Delete type=2 #84
+2022/12/25-10:58:37.273 9fb Delete type=2 #80
+2022/12/25-10:59:05.633 a6e Compacting 1@1 + 1@2 files
+2022/12/25-10:59:05.793 a6e Generated table #88@1: 15440 keys, 1578217 bytes
+2022/12/25-10:59:05.793 a6e Compacted 1@1 + 1@2 files => 1578217 bytes
+2022/12/25-10:59:05.826 a6e compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/25-10:59:05.826 a6e Delete type=2 #5
+2022/12/25-10:59:05.827 a6e Delete type=2 #85
+2022/12/25-10:59:07.830 a28 Level-0 table #90: started
+2022/12/25-10:59:07.978 a28 Level-0 table #90: 1110025 bytes OK
+2022/12/25-10:59:08.012 a28 Delete type=0 #83
+2022/12/25-10:59:08.975 a6e Compacting 1@0 + 1@1 files
+2022/12/25-10:59:09.248 a6e Generated table #91@0: 66658 keys, 1611066 bytes
+2022/12/25-10:59:09.248 a6e Compacted 1@0 + 1@1 files => 1611066 bytes
+2022/12/25-10:59:09.279 a6e compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/25-10:59:09.280 a6e Delete type=2 #86
+2022/12/25-10:59:09.280 a6e Delete type=2 #90
+2022/12/25-10:59:37.964 a70 Level-0 table #93: started
+2022/12/25-10:59:38.087 a70 Level-0 table #93: 1045546 bytes OK
+2022/12/25-10:59:38.115 a70 Delete type=0 #89
+2022/12/25-10:59:39.031 a70 Compacting 1@0 + 1@1 files
+2022/12/25-10:59:39.382 a70 Generated table #94@0: 104519 keys, 2239060 bytes
+2022/12/25-10:59:39.382 a70 Compacted 1@0 + 1@1 files => 2239060 bytes
+2022/12/25-10:59:39.440 a70 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/12/25-10:59:39.440 a70 Delete type=2 #91
+2022/12/25-10:59:39.440 a70 Delete type=2 #93
+2022/12/25-10:59:54.975 a6e Compacting 1@1 + 1@2 files
+2022/12/25-10:59:55.170 a6e Generated table #95@1: 24181 keys, 2203347 bytes
+2022/12/25-10:59:55.294 a6e Generated table #96@1: 59428 keys, 1259085 bytes
+2022/12/25-10:59:55.294 a6e Compacted 1@1 + 1@2 files => 3462432 bytes
+2022/12/25-10:59:55.325 a6e compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/12/25-10:59:55.326 a6e Delete type=2 #94
+2022/12/25-10:59:55.326 a6e Delete type=2 #88
+2022/12/25-11:01:01.837 a28 Level-0 table #98: started
+2022/12/25-11:01:01.938 a28 Level-0 table #98: 1024846 bytes OK
+2022/12/25-11:01:01.972 a28 Delete type=0 #92
+2022/12/25-11:01:03.795 a6e Compacting 1@1 + 2@2 files
+2022/12/25-11:01:04.035 a6e Generated table #99@1: 22437 keys, 2199983 bytes
+2022/12/25-11:01:04.208 a6e Generated table #100@1: 74178 keys, 1647813 bytes
+2022/12/25-11:01:04.208 a6e Compacted 1@1 + 2@2 files => 3847796 bytes
+2022/12/25-11:01:04.238 a6e compacted to: files[ 0 0 2 0 0 0 0 ]

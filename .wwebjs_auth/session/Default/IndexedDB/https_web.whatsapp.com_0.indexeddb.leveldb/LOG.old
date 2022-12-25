@@ -1,0 +1,11 @@
+2022/12/25-10:57:44.395 781 Reusing MANIFEST /home/kali/Destop/wa-web-js/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/25-10:57:44.395 781 Recovering log #78
+2022/12/25-10:57:44.444 781 Reusing old log /home/kali/Destop/wa-web-js/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000078.log 
+2022/12/25-10:58:07.823 82e Level-0 table #84: started
+2022/12/25-10:58:08.376 82e Level-0 table #84: 1196477 bytes OK
+2022/12/25-10:58:08.753 82e Delete type=0 #78
+2022/12/25-10:58:10.338 784 Compacting 1@0 + 2@1 files
+2022/12/25-10:58:11.312 784 Generated table #85@0: 102407 keys, 2291391 bytes
+2022/12/25-10:58:11.646 784 Generated table #86@0: 36736 keys, 1015478 bytes
+2022/12/25-10:58:11.646 784 Compacted 1@0 + 2@1 files => 3306869 bytes
+2022/12/25-10:58:12.241 784 compacted to: files[ 0 2 1 0 0 0 0 ]
