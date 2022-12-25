@@ -144,6 +144,6 @@ app.post("/send-message", (req, res) => {
 });
 
 client.initialize();
-server.listen(8000, function () {
+server.listen(process.env.PORT || 8000, function () {
    console.log("app run on *:" + 8000);
 });
