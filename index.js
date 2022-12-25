@@ -144,6 +144,6 @@ app.post("/send-message", (req, res) => {
 });
 
 client.initialize();
-// server.listen(8000, function () {
-//    console.log("app run on *:" + 8000);
-// });
+server.listen(8000, function () {
+   console.log("app run on *:" + 8000);
+});
